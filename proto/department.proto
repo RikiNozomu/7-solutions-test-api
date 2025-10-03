@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package department;
+
+import "google/protobuf/empty.proto";
+
+message Hair {
+    
+}
+
+message Address {
+    map<string,string> address = 1; 
+}
+
+message Department {
+    int32 male = 1;
+    int32 female = 2;
+    string ageRange = 3;
+    map<string,int32> hair = 4;
+    map<string,string> addressUser = 5;
+}
+
+message Response {
+    map<string,Department> result = 1;  
+}
+
+service Departments {
+    rpc GetAll(google.protobuf.Empty) returns (Response) {};
+} 
