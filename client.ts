@@ -4,7 +4,9 @@ import type { ProtoGrpcType } from "./proto/department.ts";
 import type { Response as ResponseData } from "./proto/department/Response.ts";
 import type { Empty } from "./proto/google/protobuf/Empty.ts";
 
-const host = "0.0.0.0:9090";
+const port = process.env.PORT || 9090;
+
+const host = `0.0.0.0:${port}`;
 const packageDefinition = protoLoader.loadSync("./proto/department.proto");
 const proto = grpc.loadPackageDefinition(
   packageDefinition
