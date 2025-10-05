@@ -23,5 +23,7 @@ Or, connect to the server via gRPC postman like this:
 npm run test
 ```
 
-## Production on Vercel
-Open [https://7-solutions-test-flax.vercel.app/](https://7-solutions-test-flax.vercel.app/) with your browser to see the result.
+## URL Production on Railway
+```bash
+switchback.proxy.rlwy.net:29192
+```
