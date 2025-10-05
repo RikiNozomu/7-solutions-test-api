@@ -18,7 +18,7 @@ npm run start:client
 
 Or, connect to the server via gRPC postman like this:
 
-![ExampleImage](https://github.com/RikiNozomu/7-solutions-test-api/blobs/Screenshot 2025-10-05 153150.png?raw=true)
+![ExampleImage](https://github.com/RikiNozomu/7-solutions-test-api/blobs/Screenshot%202025-10-05%20153150.png?raw=true)
 
 ## Testing
 ```bash
