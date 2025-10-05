@@ -1,4 +1,4 @@
-import { DepartmentArr, User } from "./types";
+import type { DepartmentArr, User } from "./types.ts";
 
 export async function getDataFromDummy() {
   const res = await fetch("https://dummyjson.com/users").catch((err) => {
